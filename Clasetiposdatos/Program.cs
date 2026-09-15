@@ -71,6 +71,10 @@ namespace Clasetiposdatos
                 Console.WriteLine($"la suma es: {resultado}");
                 resultado -= num1 - num3;
                 Console.WriteLine($"la resta es: {resultado}");
+                resultado *= num1 * num3;
+                Console.WriteLine($"la multiplicacion es: {resultado}");
+                resultado /= num1 / num3;
+                Console.WriteLine($"la division es: {resultado}"); resultado /= num1 / num3;
 
 
 

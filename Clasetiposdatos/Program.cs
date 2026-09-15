@@ -22,7 +22,7 @@ namespace Clasetiposdatos
 
 
             cadena.ToUpper();
-            cadena2.ToUpper();
+
 
             var variable = 42; // The type of 'variable' is inferred as int
 
@@ -50,7 +50,7 @@ namespace Clasetiposdatos
             Console.WriteLine("Su nombre completo y edad es " + nombre + " " + apellido + " y su edad es: " + edad);
 
             Console.WriteLine("dijite un numero flotante: ");
-             num1 = int.Parse(Console.ReadLine());
+            num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("dijite otro numero flotante: ");
             num3 = int.Parse(Console.ReadLine());
 
@@ -64,14 +64,14 @@ namespace Clasetiposdatos
             }
             else
             {
-                Console.WriteLine($"El numero { num1} es igual al numero { num3}");
+                Console.WriteLine($"El numero {num1} es igual al numero {num3}");
 
 
-            float tado = num1 + num3;
-            Console.WriteLine($"la suma es: {resultado}");
-            resultado -= num1 - num3;
+                float resultado = num1 + num3;
+                Console.WriteLine($"la suma es: {resultado}");
+                resultado -= num1 - num3;
                 Console.WriteLine($"la resta es: {resultado}");
-                Console.WriteLine(
+
 
 
 
@@ -81,6 +81,7 @@ namespace Clasetiposdatos
 
 
             }
+        }
     }
 }
 
